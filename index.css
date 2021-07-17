@@ -1,0 +1,137 @@
+html{
+    margin:0;
+    padding:0;
+}
+
+body{
+    color:white;
+}
+
+ul li{
+    list-style-type:none;
+}
+
+ul li i{
+    margin-right:2px;
+    font-size:.7em;
+}
+
+.img-thumbnail{
+    box-shadow: 10px 10px 6px rgb(0 0 0 / 30%);
+}
+
+.mainNavbar{
+    font-size:1.2rem;
+    font-weight:100;
+    background-color:darkred!important;
+}
+
+.navbar-toggler:focus{
+    outline:none!important;
+    box-shadow:none!important;
+}
+
+.backgroundimage{
+    background-image:url("sunset2.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+.projectlist{
+    color:white;
+}
+
+.projectlist a{
+    color:lightslategrey;
+    text-decoration: none;
+}
+
+.projectlist a:hover{
+    color:white;
+}
+
+.contactme a{
+    color:white;
+}
+
+.nav-item{
+    list-style-type:none;
+}
+
+.dropdownMenuButton{
+    color:white;
+}
+
+.btnClear{
+    background: transparent;
+    border:1px solid white; 
+    color:white;
+    font-weight:100;
+    text-transform: uppercase;
+    opacity: .85;
+}
+
+.btnClear:hover{
+    opacity:1;
+    color:white;
+}
+
+.btnClear:focus{
+    outline:none;
+}
+
+.white{
+    color:white!important;
+}
+
+.sidenav{
+    height:100%;
+    width:350px;
+    position:fixed;
+    z-index:1;
+    top:0;
+    left:0;
+    bottom:0;
+    background-color:darkred;
+    overflow-y:auto;
+    scrollbar-width:none;
+    -ms-overflow-style:none;
+    text-transform: uppercase;
+}
+
+ a{
+    text-decoration:none;
+    display:block;
+    color:white;
+}
+
+ a:hover{
+    color:lightgrey;
+}
+
+.container{
+    margin-left:350px;
+    
+}
+
+.backgroundgrey{
+    background:grey;
+}
+
+.font100{
+    font-weight:100;
+}
+
+.profile-circle {
+  box-shadow: .5rem .5rem .5rem rgba(0, 0, 0, 0.2);
+}
+
+::-webkit-scrollbar{
+    display:none;
+}
+
+@media (max-width:767px){
+    .container{
+        margin-left:0;
+    }
+}

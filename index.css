@@ -16,7 +16,7 @@ ul li i{
     font-size:.7em;
 }
 
-.img-thumbnail{
+.img-thumbnail {
     box-shadow: 10px 10px 6px rgb(0 0 0 / 30%);
 }
 
@@ -96,6 +96,9 @@ ul li i{
     overflow-y:auto;
     scrollbar-width:none;
     -ms-overflow-style:none;
+}
+
+.sidenav h3, h4{
     text-transform: uppercase;
 }
 
@@ -118,6 +121,10 @@ ul li i{
     background:grey;
 }
 
+.backgroundgrey ul{
+    font-size:.9rem;
+}
+
 .font100{
     font-weight:100;
 }
@@ -133,5 +140,8 @@ ul li i{
 @media (max-width:767px){
     .container{
         margin-left:0;
+    }
+    #indexmain{
+        margin-top:1rem;
     }
 }
